@@ -1,0 +1,15 @@
+name: General feedback
+description: Share a question or comment about SaltyTrack.
+title: "[Feedback] "
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your thoughts. Issues are public: please do not include personal information, passwords, or security vulnerabilities.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What would you like us to know?
+    validations:
+      required: true

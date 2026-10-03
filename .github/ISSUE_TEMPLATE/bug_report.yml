@@ -1,0 +1,33 @@
+name: Bug report
+description: Tell us about a problem with the website or Chrome extension.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Issues are public: please do not include personal information, passwords, or security vulnerabilities.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did it happen?
+      options:
+        - Chrome extension on SaltyBet
+        - SaltyTrack website
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      description: Include the page URL, browser, and extension version if relevant.
+    validations:
+      required: false
