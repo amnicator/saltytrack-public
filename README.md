@@ -41,5 +41,3 @@ The extension is free. You do not need to install software from this repository 
 This is SaltyTrack's **public feedback and information repository**. [Open an issue](https://github.com/amnicator/saltytrack-public/issues/new/choose) to report a bug, suggest a feature, or share general feedback. Search existing issues first, and include the relevant SaltyTrack page or extension version when it helps explain the problem. GitHub requires an account to post an issue.
 
 For incorrect data on a particular website page, you can also use that page's **Report inaccuracy** link. Please do not post passwords, personal information, or security vulnerabilities in a public issue; see [Security reporting](SECURITY.md).
-
-SaltyTrack's application and extension are developed in a private repository. This public repository does not contain their source code or accept code contributions. It contains user information, issue forms, and SaltyTrack branding assets.
